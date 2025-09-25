@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8" name="viewport" content="wifth=device-width, inital-scale=1.0">
+    <link rel="stylesheet" href="ArtGallery.css">
+    
+    <title>Profolio</title>
+</head>
+<body>
+  
+   <header>
+    <div class="outerborder">
+    <div class="footer">
+    <div class="profile-section">
+      <img src="./ArtGallImages/profilepic.jpg" alt="Profile Picture">
+      <div class = "profile-info">
+        <h1>YangYu Chen</h1>
+        <p></p><!--for contact info n stuff-->
+      </div>
+    </div>
+    <div class="title-section">
+      <h1>The Art Gallery</h1>
+      <p>Mix of SketchWork and Photographs</p>
+    </div>
+  </div>
+  <p class="info">Click on each image to enlarge and press (esc) to go back</p>
+  </div>
+   </header>
+   <section class="tags"> <!--Clean Up filter-->
+    <button data-filter="all" class="active">All</button>
+    <button data-filter="art">Art</button>
+    <button data-filter="photography">Photography</button>
+    <button data-filter="people">People</button>
+    <button data-filter="nature">Nature</button>
+   </section> 
+   <main>
+    <div class="gallery">
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/Newyork.JPG" alt="Artwork 1" data-tags="photography" data-title="New York" data-desc="Picture of the New York Landscape from Chinatown">
+        <div class ='img-title' id ='img-title'><h1>New York</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/9F88C725-DF17-4AEC-92B5-5A019726F1B4.JPG" alt="Artwork 2" data-tags="photography" data-title = "House" data-desc="Just an ancient Chinese Home">
+        <div class ='img-title' id ='img-title'><h1>House</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/4936C384-9025-4377-82AD-26BBFA252664.JPG" alt="Artwork 3" data-tags="photography, nature, people" data-title= "Hike" data-desc="The long trek to the Beach">
+        <div class ='img-title' id ='img-title'><h1>Hike</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/68322467-00FA-4764-9C2A-C68E6A11F138.JPG" alt="Artwork 4" data-tags="animal" data-title="Dog" data-desc="Woof!">
+        <div class ='img-title' id ='img-title'><h1>Dog</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_0906.jpg" alt="Artwork 5" data-tags="photography" data-title="Green Bus" data-desc="90s Bus from Beijing China, really COLD place">
+        <div class ='img-title' id ='img-title'><h1>Green Bus</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4636.jpg" alt="Artwork 6" data-tags="art" data-title="Sketch - ShangHai" data-desc="Good ol' Seaside">
+        <div class ='img-title' id ='img-title'><h1>Sketch - ShangHai</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4066.jpg" alt="Artwork 7" data-tags="animal, nature" data-title="Bird" data-desc="It flies! and also pecks on your food">
+        <div class ='img-title' id ='img-title'><h1>Bird</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4639.jpg" alt="Artwork 8" data-tags="art" data-title="Sketchbook - 1" data-desc="Some random doodles">
+        <div class ='img-title' id ='img-title'><h1>Sketchbook - 1</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4638.jpg" alt="" data-tags="art" data-title="Sketchbook - 2" data-desc="Random sketches to try and capture the Ancient China aesthetic">        
+        <div class ='img-title' id ='img-title'><h1>Sketchbook - 2</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4637.jpg" alt="" data-tags="art" data-title="Sketchbook - 3" data-desc="Random Sketches of Character desgins / Posters">        
+        <div class ='img-title' id ='img-title'><h1>Sketchbook - 3</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_4635.jpg" alt="" data-tags="art" data-title="Sketch - HongKong" data-desc="The island city, or something like that">        
+        <div class ='img-title' id ='img-title'><h1>Sketch - HongKong</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_5050.jpg" alt="" data-tags="animal, nature" data-title="Lizard" data-desc="Its quick, and its slithery">        
+        <div class ='img-title' id ='img-title'><h1>Lizard</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="./ArtGallImages/IMG_9477.jpg" alt="" data-tags="animal, nature" data-title="Sesame Cat" data-desc="Just a little guy chilling by the stairs">
+        <div class ='img-title' id ='img-title'><h1>Sesame Cat</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_9503.jpg" alt="" data-tags="animal, nature" data-title="Orange Cat" data-desc="Hiding from the Sun">
+        <div class ='img-title' id ='img-title'><h1>Orange Cat</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_8885.jpg" alt="" data-tags="photography" data-title="Barbeque" data-desc="Its Chicken if thats what you were wondering">
+        <div class ='img-title' id ='img-title'><h1>Barbeque</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_6656.jpg" alt="" data-tags="photography" data-title="Macau" data-desc="Gambling Capital of Asia, its HUGEEE">
+        <div class ='img-title' id ='img-title'><h1>Macau</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_2196.jpg" alt="" data-tags="photography" data-title="Xi'an Night" data-desc="A nightly stroll along a Wall">
+        <div class ='img-title' id ='img-title'><h1>Xi'an Night</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_0339.jpg" alt="" data-tags="photography" data-title="Sunset" data-desc="I guess youcan say its blindingly beautiful">
+        <div class ='img-title' id ='img-title'><h1>Sunset</h1></div>
+      </div>
+
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/2BC1FB3D-C073-49E7-BD7F-828F761F3236.JPG" alt="" data-tags="animal, nature" data-title="Cat in Leaves" data-desc="A black cat hiding amongst the foilage">
+        <div class ='img-title' id ='img-title'><h1>Cat in Leaves</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_5536.jpg" alt="" data-tags="people" data-title="Cameraman" data-desc="Just taking some pics">
+        <div class ='img-title' id ='img-title'><h1>Cameraman</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_0756.jpg" alt="" data-tags="people" data-title="Guy on Wall" data-desc="Hey Wassyp">
+        <div class ='img-title' id ='img-title'><h1>Guy on Wall</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_4785.jpg" alt="" data-tags="people" data-title="Under the Bridge" data-desc="One man in the Jungle of Lights">
+        <div class ='img-title' id ='img-title'><h1>Under the Bridge</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/3B31B283-B950-4898-97BB-557C57E70E88.JPG" alt="" data-tags="photography" data-title="Fire" data-desc="Firey HOT!">
+        <div class ='img-title' id ='img-title'><h1>Fire</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/3BCC4568-2253-44F3-AFDC-AE6A8FEFCBF5.JPG" alt="" data-tags="animal" data-title="Turtle, nature" data-desc="This ones not so slithery, it bites">
+        <div class ='img-title' id ='img-title'><h1>Turtle</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/9D002EE3-AD07-4691-91E7-1CCB9F11BF15.JPG" alt="" data-tags="photography" data-title="Statue" data-desc="Wow its massive">
+        <div class ='img-title' id ='img-title'><h1>Statue</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/6402C4BE-0700-4673-A820-120EE3F3567F.JPG" alt="" data-tags="photography" data-title="Boat" data-desc="I wonder what its trying to catch">
+        <div class ='img-title' id ='img-title'><h1>Boat</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_1054.jpg" alt="" data-tags="people" data-title="Photographer" data-desc="A true man with a camera">
+        <div class ='img-title' id ='img-title'><h1>Photographer</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages//IMG_7701.jpg" alt="" data-tags="photography" data-title="Sea in the Night" data-desc="Late night fishing">
+        <div class ='img-title' id ='img-title'><h1>Sea in the Night</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_5722.jpg" alt="" data-tags="photography" data-title="Train Station" data-desc="Thats a lot of rails">
+        <div class ='img-title' id ='img-title'><h1>Train Station</h1></div>  
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/img_7351.jpg" alt="" data-tags="photography" data-title="Night Market" data-desc="Late Night = Good Grubs">
+        <div class ='img-title' id ='img-title'><h1>Night Market</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_7389.jpg" alt="" data-tags="nature" data-title="White Blossoms" data-desc="Just because the pink ones weren't cool enough">
+        <div class ='img-title' id ='img-title'><h1>White Blossoms</h1></div>
+      </div>
+      <div class="title-wrap" id="title-wrap"> 
+        <img src="ArtGallImages/IMG_2418.jpg" alt="" data-tags="photography" data-title="Goose Pagoda" data-desc="A big tower with gooses apparently">
+        <div class ='img-title' id ='img-title'><h1>Goose Pagoda</h1></div>
+      </div>
+    </div>
+
+    <div class="overlay" id="overlay">
+      <img id="overlayImage" src="" alt="Expanded Artwork">
+      <div class="overlayText" id="overlayText">
+        <h1 id="overlayTitle"></h1>
+        <p id="overlayDesc"></p>
+      </div>
+      <!--<div class="close-btn"></div>-->
+    </div>
+
+   </main>
+   <script src="ArtGallery.js"></script>
+</body>
+</html>        
