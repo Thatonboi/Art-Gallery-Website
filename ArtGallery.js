@@ -34,7 +34,7 @@ titleWrap.forEach(item => {
     });
 
     document.addEventListener('keydown',(e)=>{ 
-      if(overlay.style.display = 'flex') 
+      if(overlay.style.display === 'flex') 
         if(e.key==='Escape')
         {overlay.style.display = 'none';
       } })
